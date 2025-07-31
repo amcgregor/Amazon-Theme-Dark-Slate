@@ -1,14 +1,23 @@
 /* ==UserStyle==
 @name           Amazon-Theme-Dark-Slate
-@namespace      https://github.com/aab12345/Amazon-Theme-Dark-Slate
-@version        1.0.3
+@namespace      https://github.com/amcgregor/Amazon-Theme-Dark-Slate/
+@version        1.0.4
 @description    A dark style theme for Amazon
 @author         Sean Mayes
+@maintainer     Alice Bevan-McGregor
 
-@homepageURL https://github.com/aab12345/Amazon-Theme-Dark-Slate
-@supportURL https://github.com/aab12345/Amazon-Theme-Dark-Slate/issues
-@updateURL https://github.com/aab12345/Amazon-Theme-Dark-Slate/raw/main/Amazon-Theme-Dark.user.css
+@homepageURL https://github.com/amcgregor/Amazon-Theme-Dark-Slate#readme
+@supportURL https://github.com/amcgregor/Amazon-Theme-Dark-Slate/issues
+@updateURL https://github.com/amcgregor/Amazon-Theme-Dark-Slate/raw/main/Amazon-Theme-Dark.user.css
 ==/UserStyle== */
+
+/* TODO:
+ * Switch most of the colour use to --var interpolation.
+ * Handle light and dark mode differentiation.
+ * Split into distinct sections for improved maintainability.
+ * Simplify selectors where possible.
+ * Improve specificity to reduce reliance on !important.
+ */
 
 @-moz-document domain("amazon.co.uk"), domain("amazon.com"), domain("amazon.ca"), domain("amazon.de"), domain("amazon.it"), domain("amazon.es"), domain("amazon.fr"), domain("amazon.com.mx"), domain("amazon.co.jp"), domain("amazon.com.au"), domain("amazon.in") {
 body {
