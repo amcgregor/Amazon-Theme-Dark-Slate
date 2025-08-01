@@ -11,9 +11,7 @@
 		<img alt="Install directly with stylus" src="https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg"></a>
 </p>
 
-<h3 align="center">
-	 Designed by Wiiija
-</h3>
+### Designed by Wiiija
 
 <p align="center">
 	<strong>
